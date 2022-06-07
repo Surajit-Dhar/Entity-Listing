@@ -1,0 +1,44 @@
+.main{
+   
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 22px;
+    margin-left: 100px;
+    height:1000px;
+
+}
+#d2{
+    height:260px;
+    width:170px;
+}
+.main>div{
+    height:auto;
+    width:320px;
+   
+}
+  .d3{
+      display:flex;
+      margin-left: 70px;
+  }
+.pagination{
+    
+    display:flex;
+    margin-top:540px;
+    margin-bottom: 80px;
+    text-align: center;
+   
+    
+}
+.pagination>h3:nth-child(1){
+    margin-left: 30%;
+}
+.pagination>h3{
+    margin-left: 10%;
+    
+}
+.pagination>h3:hover{
+ background-color: aqua;
+ height:30px;
+ width:30px;
+ cursor: pointer;
+}
